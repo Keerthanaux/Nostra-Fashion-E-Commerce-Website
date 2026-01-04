@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nostra </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font: Poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <div class="logo">Nostra</div>
+
+        <!-- MENU -->
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+<li><a href="#new-arrivals">New Arrival</a></li>
+<li><a href="#most-wanted">Most Wanted</a></li>
+<li><a href="collections.html">Collections</a></li>
+<li><a href="contact-us.html">Contact Us</a></li>
+
+
+        </ul>
+
+        <!-- HAMBURGER -->
+        <div class="menu-icon" id="menuIcon">☰</div>
+
+    </nav>
+<section class="hero-slider">
+
+  <!-- MOVING IMAGES -->
+  <div class="slides">
+    <div class="slide">
+      <img src="./images/slider-one.jpg">
+      <div class="overlay"></div>
+    </div>
+
+    <div class="slide">
+      <img src="./images/slider-two.jpg">
+      <div class="overlay"></div>
+    </div>
+
+    <div class="slide">
+      <img src="./images/slider-three.jpg">
+      <div class="overlay"></div>
+    </div>
+  </div>
+
+  <!-- FIXED CENTER CONTENT -->
+  <div class="hero-content">
+    <h1>Level up your style with our</h1>
+    <p>Summer Collections</p>
+    <button>Shop Now →</button>
+  </div>
+
+  <div class="arrow left" onclick="prevSlide()">❮</div>
+  <div class="arrow right" onclick="nextSlide()">❯</div>
+</section>
+<section class="brands-section">
+  <h2>Brands</h2>
+
+  <div class="brands-slider">
+    <div class="brands-track">
+
+      <!-- SET 1 -->
+      <div class="brand">
+        <img src="./images/puma.png"><p>Puma</p>
+      </div>
+      <div class="brand">
+        <img src="./images/adidas.png"><p>Adidas</p>
+      </div>
+      <div class="brand">
+        <img src="./images/simple.png"><p>Simple</p>
+      </div>
+      <div class="brand">
+        <img src="./images/leaves.png"><p>Leaves</p>
+      </div>
+      <div class="brand">
+        <img src="./images/behance.png"><p>Behance</p>
+      </div>
+      <div class="brand">
+        <img src="./images/twitch.png"><p>Twitch</p>
+      </div>
+
+      <!-- SET 2 (DUPLICATE – MUST BE SAME ORDER) -->
+      <div class="brand">
+        <img src="./images/puma.png"><p>Puma</p>
+      </div>
+      <div class="brand">
+        <img src="./images/adidas.png"><p>Adidas</p>
+      </div>
+      <div class="brand">
+        <img src="./images/simple.png"><p>Simple</p>
+      </div>
+      <div class="brand">
+        <img src="./images/leaves.png"><p>Leaves</p>
+      </div>
+      <div class="brand">
+        <img src="./images/behance.png"><p>Behance</p>
+      </div>
+      <div class="brand">
+        <img src="./images/twitch.png"><p>Twitch</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="experience-section">
+  <div class="experience-header">
+    <h2>We Provide Best<br>Customer Experiences</h2>
+    <p>
+      || We ensure that our customer have the best shopping experience
+    </p>
+  </div>
+
+  <div class="experience-cards">
+
+  <div class="experience-card">
+    <span class="icon">✓</span>
+    <h3>Original Products</h3>
+    <p>Authentic treasures, handpicked for unmatched quality and style.</p>
+  </div>
+
+  <div class="experience-card">
+    <span class="icon">☺</span>
+    <h3>Satisfaction Guarantee</h3>
+    <p>Your delight, our promise—shop with complete confidence.</p>
+  </div>
+
+  <div class="experience-card">
+    <span class="icon">✎</span>
+    <h3>New Arrival Everyday</h3>
+    <p>Fresh finds daily to keep your collection as unique as you.</p>
+  </div>
+
+  <div class="experience-card">
+    <span class="icon">🚚</span>
+    <h3>Fast & Free Shipping</h3>
+    <p>Lightning-fast delivery, always free, straight to your doorstep.</p>
+  </div>
+
+</div>
+
+</section>
+<section class="new-arrivals" id="new-arrivals">
+
+  <h2>New Arrivals</h2>
+  <div class="products-container">
+    <div class="product-card">
+      <img src="./images/f1.jpg" alt="Shirt 1">
+      <div class="product-overlay">
+        <button>Shop Now →</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="./images/f7.jpg" alt="Pants 1">
+      <div class="product-overlay">
+        <button>Shop Now →</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="./images/n1.jpg" alt="Shirt 2">
+      <div class="product-overlay">
+        <button>Shop Now →</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="./images/n7.jpg" alt="Jacket 1">
+      <div class="product-overlay">
+        <button>Shop Now →</button>
+      </div>
+    </div>
+    <!-- Add more product cards as needed -->
+  </div>
+</section>
+
+<section class="mw-section" id="most-wanted">
+  <h2 class="mw-title">Most Wanted</h2>
+
+  <div class="mw-slider-wrapper">
+    <button class="mw-arrow mw-left">&#10094;</button>
+
+    <div class="mw-slider" id="mwSlider">
+
+      <div class="mw-card">
+        
+        <span class="mw-sale">sale</span>
+        <img src="./images/f1.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      
+      </div>
+
+      <div class="mw-card">
+        
+        <span class="mw-sale">sale</span>
+        <img src="./images/f7.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      </div>
+
+      <div class="mw-card">
+       
+        <span class="mw-sale">sale</span>
+        <img src="./images/n1.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      </div>
+
+      <div class="mw-card">
+        
+        <span class="mw-sale">sale</span>
+        <img src="./images/n7.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      </div>
+
+      <div class="mw-card">
+        
+        <span class="mw-sale">sale</span>
+        <img src="./images/n3.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      </div>
+
+      <div class="mw-card">
+        
+        <span class="mw-sale">sale</span>
+        <img src="./images/n4.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      </div>
+
+      <div class="mw-card">
+       
+        <span class="mw-sale">sale</span>
+        <img src="./images/n8.jpg" alt="">
+        <img class="mw-fav" src="./images/blackheart.png" alt="like">
+      </div>
+      </div>
+    </div>
+
+    <button class="mw-arrow mw-right">&#10095;</button>
+  </div>
+</section>
+
+<section class="offer-banner">
+  <div class="offer-image">
+    <img src="images/offer.jpg" alt="Offer Image">
+  </div>
+
+  <div class="offer-content">
+    <h1>Limited Offer</h1>
+    <p><strong>35% OFF</strong> on this for the first 30 Customers</p>
+    <button class="shop-btn">Shop Now →</button>
+  </div>
+</section>
+<div class="newsletter-wrapper">
+  <section class="newsletter">
+    <h1>Join our News Letter</h1>
+    <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+
+    <input type="email" placeholder="Enter your email">
+
+    <button class="subscribe-btn">Subscribe →</button>
+  </section>
+</div>
+<footer class="footer">
+  <h2 class="footer-logo">Nostra</h2>
+
+  <p class="footer-text">
+    The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest
+  </p>
+
+  <div class="social-icons">
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  </div>
+
+  <p class="copyright">
+    © 2023 Nostra.com
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
